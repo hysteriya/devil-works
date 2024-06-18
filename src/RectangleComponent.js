@@ -6,7 +6,7 @@ import buttonGreen from './img/button2.png';
 
 const RectangleComponent = () => {
   return (
-    <div className="rectangle border rounded mt-3">
+    <div className="rectangle border rounded mt-6">
       <div className="window-header p-2 d-flex align-items-center">
         <div className="button-group d-flex">
           <img src={buttonRed} alt="Red Button" className="window-button mr-2" />
@@ -16,13 +16,13 @@ const RectangleComponent = () => {
       </div>
       <div className="division-line my-0"></div>
       <div className="content p-3">
-        <h2>Hey Fashion Fam,</h2>
+        <p> Our fashion universe is still playing catch-up with old-school <br />
+          networking while others are using tech to connect & find gigs <br />
+          worldwide & automate tasks. <br /> <br /> </p>
         <p>
-          Is old always gold?<br />
-          Not when it comes to technology<br />
-          New is - better, faster & more efficient <br />
-          Let's unite to switch gears and bring a technology revolution
-          in fashion so you can level up that career | business you are
+          <span className="highlight">Let's unite to switch gears and bring a technology revolution</span> <br /> 
+            in fashion
+           so you can level up that career | business you are <br />
         </p>
       </div>
     </div>
