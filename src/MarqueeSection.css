@@ -4,14 +4,16 @@
   background-color: #090909; /* Adjust the background color as needed */
   padding: 10px 0;
   transform: rotate(-2deg); /* Tilt the entire container */
+  display: flex;
+  align-items: center;
 }
 
 .marquee {
-  display: inline-block;
-  animation: marquee 15s linear infinite;
+  display: flex;
+  animation: marquee 30s linear infinite;
 }
 
-.marquee p {
+.marquee span {
   font-family: 'Press Start 2P', cursive;
   font-size: 16px;
   font-weight: 400;
@@ -21,7 +23,6 @@
   display: inline-block;
   margin: 0;
   padding: 0 50px;
-  transform: rotate(2deg); /* Counter-tilt the text */
   color: #f0f0f0;
 }
 
