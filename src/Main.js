@@ -20,7 +20,7 @@ const Main = () => {
         </div>
         <div className="email-form d-flex justify-content-center align-items-center shadow p-0 mb-3 mt-4">
           <input type="email" placeholder="Email address" className="form-control mr-2" />
-          <button className="btn btn-danger">Get early access</button>
+          <button className="email-button btn btn-danger">Get early access</button>
         </div>
         <div className='mt-5'>
         <RectangleComponent />

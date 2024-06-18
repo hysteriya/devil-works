@@ -3,8 +3,8 @@
   max-width: 600px;
   margin: 20px auto;
   background-color: white;
-  background-image: url('./img/ellipsePink.png'); /* Add background image */
-  background-repeat: repeat;
+  background-image: radial-gradient(circle, rgb(244, 233, 235) 40%, transparent 20%);
+  background-size: 30px 30px;
   border: 2px solid black; /* Black borders */
   border-bottom: 10px solid black;
   border-right: 10px solid black;
