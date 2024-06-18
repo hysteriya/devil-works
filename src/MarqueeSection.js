@@ -1,12 +1,12 @@
 import React from 'react';
-//import './MarqueeSection.css';
+import './MarqueeSection.css';
 
 const MarqueeSection = () => {
   return (
-    <div className="bg-dark text-white py-2">
-      <marquee className="marquee">
-        JOIN THE PARTY 😍 JOIN THE PARTY 😍 JOIN THE PARTY 😍 JOIN THE PARTY 😍 JOIN THE PARTY 😍
-      </marquee>
+    <div className="marquee-container">
+      <div className="marquee">
+       <p>JOIN THE PARTY 😍JOIN THE PARTY 😍JOIN THE PARTY 😍JOIN THE PARTY 😍JOIN THE PARTY 😍JOIN THE PARTY 😍JOIN THE PARTY 😍JOIN THE PARTY 😍</p> 
+      </div>
     </div>
   );
 };

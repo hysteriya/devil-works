@@ -34,9 +34,6 @@
 }
 
 @media (max-width: 768px) {
-  .main{
-    width: 100%;
-  }
   .rectangle {
     width: 90%;
     margin: 10px auto;
@@ -44,9 +41,6 @@
 }
 
 @media (max-width: 480px) {
-  .main{
-    width: 100%;
-  }
   .rectangle {
     width: 95%;
     margin: 10px auto;

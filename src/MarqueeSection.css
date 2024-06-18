@@ -1,12 +1,31 @@
 .marquee-container {
-    background-color: black;
-    padding: 10px 0;
-    width: 100% !important;
+  overflow: hidden;
+  white-space: nowrap;
+  background-color: #090909; /* Adjust the background color as needed */
+  padding: 10px 0;
+  transform: rotate(-2deg); /* Tilt the entire container */
+}
+
+.marquee {
+  display: inline-block;
+  animation: marquee 15s linear infinite;
+}
+
+.marquee p {
+  display: inline-block;
+  font-size: 24px; /* Adjust the font size as needed */
+  margin: 0;
+  padding: 0 50px;
+  transform: rotate(2deg); /* Counter-tilt the text */
+  color: #f0f0f0;
+}
+
+/* Define the marquee animation */
+@keyframes marquee {
+  0% {
+    transform: translateX(100%);
   }
-  
-  .marquee {
-    font-family: 'Inter', sans-serif;
-    color: white;
-    font-size: 18px;
+  100% {
+    transform: translateX(-100%);
   }
-  
+}
