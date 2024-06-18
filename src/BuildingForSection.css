@@ -36,4 +36,8 @@
     width: 150px;
     height: auto;
   }
+
+  .img-thumbnail{
+    border: none !important;
+  }
   

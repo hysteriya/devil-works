@@ -1,6 +1,7 @@
 .marquee-container {
     background-color: black;
     padding: 10px 0;
+    width: 100% !important;
   }
   
   .marquee {

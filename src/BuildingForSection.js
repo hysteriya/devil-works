@@ -1,5 +1,5 @@
 import React from 'react';
-//import './BuildingForSection.css';
+import './BuildingForSection.css';
 
 import bus1 from './img/bus/brand.png';
 import bus2 from './img/bus/multiDesigner.png';
@@ -27,7 +27,7 @@ import ind11 from './img/ind/stylist.png';
 
 const BuildingForSection = () => {
   return (
-    <div className="text-left my-5">
+    <div className="text-center my-5">
       <h2 className="font-weight-bold">Who are we building for?</h2>
       <div className="d-flex justify-content-around mt-4">
         <div className="businesses">

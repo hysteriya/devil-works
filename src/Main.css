@@ -1,55 +1,35 @@
-body {
-  font-family: 'Inter', sans-serif;
+.main {
+  width: 70%;
+  padding: 20px;
+  margin: auto;
 }
 
-.main {
-    text-align: center;
-    padding: 20px;
-  }
-  
-  .intro {
-    margin: 20px 0;
-  }
-  
-  .email-form {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 20px;
-  }
-  
-  .email-input {
-    padding: 10px;
-    font-size: 16px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-  }
-  
-  .email-button {
-    padding: 10px 20px;
-    font-size: 16px;
-    border: none;
-    border-radius: 4px;
-    background-color: red;
-    color: white;
-    cursor: pointer;
-  }
-  
-  .info {
-    margin-top: 0px;
-  }
-  
-  .header-image {
-    max-width: 70%;
-    height: auto;
-  }
-  
-  .highlighted-text {
-    background-color: yellow;
-    display: inline-block;
-    padding: 5px 10px;
-    margin-top: 20px;
-    font-size: 16px;
-    font-weight: bold;
-  }
-  
+.info {
+  margin-bottom: 30px;
+}
+
+.header-image {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 15px;
+}
+
+.email-form {
+  max-width: 500px;
+  margin: 15px auto;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.email-form .form-control {
+  flex: 1;
+}
+
+.email-input {
+  width: 250px;
+  padding: 10px;
+}
+
+.email-button {
+  padding: 10px 20px;
+}
