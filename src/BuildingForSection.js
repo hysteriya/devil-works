@@ -27,10 +27,10 @@ import ind11 from './img/ind/stylist.png';
 
 const BuildingForSection = () => {
   return (
-    <div className="building-for text-center m-5 p-5">
+    <div className="building-for text-center">
       <h2 className="mx-5 my-6 font-weight-bold">Who are we building for?</h2>
       <div className="d-flex justify-content-around mt-5">
-        <div className="businesses mx-3">
+        <div className="businesses">
           <h3 className="font-weight-bold">Businesses</h3>
           <div className="d-flex flex-wrap justify-content-center">
             <img src={bus1} alt="Brand" className="img-thumbnail m-2" />
@@ -46,7 +46,7 @@ const BuildingForSection = () => {
             <img src={bus11} alt="Agencies" className="img-thumbnail m-2" />
           </div>
         </div>
-        <div className="individuals mx-3">
+        <div className="individuals">
           <h3 className="font-weight-bold">Individuals</h3>
           <div className="d-flex flex-wrap justify-content-center">
             <img src={ind1} alt="Blogger & Influencer" className="img-thumbnail m-2" />
