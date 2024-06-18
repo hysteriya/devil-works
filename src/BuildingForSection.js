@@ -28,7 +28,9 @@ import ind11 from './img/ind/stylist.png';
 const BuildingForSection = () => {
   return (
     <div className="text-center my-5">
+      <div className='text-left'>
       <h2 className="font-weight-bold">Who are we building for?</h2>
+      </div>
       <div className="d-flex justify-content-around mt-4">
         <div className="businesses">
           <h3 className="font-weight-bold">Businesses</h3>

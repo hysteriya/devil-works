@@ -17,8 +17,11 @@
 .email-form {
   max-width: 500px;
   margin: 15px auto;
-  border-radius: 5px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  border: 1px solid black; /* Black borders */
+  border-bottom: 10px solid black;
+  border-right: 10px solid black;
 }
 
 .email-form .form-control {
