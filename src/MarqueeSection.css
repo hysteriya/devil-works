@@ -1,0 +1,11 @@
+.marquee-container {
+    background-color: black;
+    padding: 10px 0;
+  }
+  
+  .marquee {
+    font-family: 'Inter', sans-serif;
+    color: white;
+    font-size: 18px;
+  }
+  

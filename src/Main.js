@@ -2,16 +2,18 @@ import React from 'react';
 import './Main.css';
 import headerImage from './img/header-image.png';
 import RectangleComponent from './RectangleComponent';
+import BuildingForSection from './BuildingForSection';
+import MarqueeSection from './MarqueeSection';
 
 const Main = () => {
   return (
     <main className="main">
       <section className="info">
         <img src={headerImage} alt="Header" className="header-image" />
-        <p>Hey Fashion Fam,
+        <p>Hey Fashion Fam, <br />
 
-          Is old always gold?
-          Not when it comes to technology
+          Is old always gold? <br />
+          Not when it comes to technology <br />
           New is - better, faster & more efficient
         </p>
         <div className="email-form">
@@ -20,6 +22,8 @@ const Main = () => {
         </div>
         <RectangleComponent />
       </section>
+      <MarqueeSection />
+      <BuildingForSection />
     </main>
   );
 };

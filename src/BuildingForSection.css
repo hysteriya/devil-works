@@ -1,0 +1,39 @@
+.building-for {
+    text-align: center;
+    margin: 20px 0;
+  }
+  
+  .building-for h2 {
+    font-family: 'Inter', sans-serif;
+    font-size: 36px;
+    font-weight: bold;
+  }
+  
+  .categories {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+  }
+  
+  .businesses, .individuals {
+    flex: 1;
+    margin: 0 10px;
+  }
+  
+  .businesses h3, .individuals h3 {
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .businesses-blocks, .individuals-blocks {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .businesses-blocks img, .individuals-blocks img {
+    width: 150px;
+    height: auto;
+  }
+  
